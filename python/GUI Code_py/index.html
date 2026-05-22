@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dummy Aadhaar Card</title>
+
+<style>
+body{
+  font-family: Arial;
+  background:#f2f2f2;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.card{
+  width:360px;
+  background:#fff;
+  border-radius:12px;
+  overflow:hidden;
+  box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.header{
+  background:linear-gradient(to right, orange, white, green);
+  text-align:center;
+  padding:8px;
+  font-weight:bold;
+}
+
+.content{
+  display:flex;
+  padding:10px;
+}
+
+.photo{
+  width:90px;
+  height:110px;
+  background:url('file_00000000057871faa906f671351b1408.png') center/cover;
+  margin-right:10px;
+  border:1px solid #ccc;
+}
+
+.details{
+  font-size:13px;
+}
+
+.details span{
+  display:block;
+  margin-bottom:6px;
+}
+
+.footer{
+  text-align:center;
+  padding:10px;
+  border-top:1px solid #ccc;
+}
+
+.aadhaar{
+  font-size:18px;
+  letter-spacing:3px;
+  font-weight:bold;
+}
+
+.note{
+  font-size:11px;
+  color:gray;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+  <div class="header">
+    भारत सरकार <br>
+    Government of India
+  </div>
+
+  <div class="content">
+    <div class="photo"></div>
+
+    <div class="details">
+      <span><b>Name:</b> Mulana Hamza Ali Mazari</span>
+      <span><b>DOB:</b> 20/03/1986</span>
+      <span><b>Gender:</b> Male</span>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="aadhaar">**** **** 9012</div>
+    <div class="note">Dummy Aadhaar</div>
+  </div>
+
+</div>
+
+</body>
+</html>
